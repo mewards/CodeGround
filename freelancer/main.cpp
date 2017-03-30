@@ -25,10 +25,10 @@ int main(int argc, char** argv) {
         int P[N];
         int Q[N];
         for(int i=0; i<N; i++){
-        	scanf("%d", P[i]);
+        	scanf("%d", &P[i]);
         }
         for(int i=0; i<N; i++){
-        	scanf("%d", Q[i]);
+        	scanf("%d", &Q[i]);
         }
         int S[N];
 		S[0]=max(P[0], Q[0]);
